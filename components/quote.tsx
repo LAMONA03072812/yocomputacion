@@ -33,7 +33,7 @@ const Quote: React.FC = () => {
     const handlePurchase = async () => {
         setLoading(true); // Activar el indicador de carga
         try {
-            await axios.post('http://localhost:5000/api/complete-purchase', product);
+            await axios.post('https://yocomputacion.vercel.app/api/complete-purchase', product);
 
             // Mostrar el modal
             setShowModal(true);

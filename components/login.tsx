@@ -26,7 +26,7 @@ export default function Page() {
         setError('');
 
         try {
-            const response = await axios.post('http://localhost:5000/api/login', { email, password });
+            const response = await axios.post('https://yocomputacion.vercel.app/api/login', { email, password });
             const { token } = response.data;
 
             // Guardar el token en localStorage

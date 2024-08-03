@@ -34,7 +34,7 @@ const ProductList: React.FC = () => {
     useEffect(() => {
         const fetchProducts = async () => {
             try {
-                const response = await axios.get<Product[]>('http://localhost:5000/api/products');
+                const response = await axios.get<Product[]>('https://yocomputacion.vercel.app/api/products');
                 setProducts(response.data);
             } catch (err) {
                 setError('Error al obtener productos');

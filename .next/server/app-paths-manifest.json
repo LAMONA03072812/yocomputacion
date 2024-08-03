@@ -1,4 +1,4 @@
 {
-  "/upload-product/page": "app/upload-product/page.js",
-  "/(default)/page": "app/(default)/page.js"
+  "/(default)/page": "app/(default)/page.js",
+  "/upload-product/page": "app/upload-product/page.js"
 }

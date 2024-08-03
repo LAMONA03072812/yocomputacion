@@ -43,7 +43,7 @@ export default function ProductForm() {
         formData.append('stock', stock);
 
         try {
-            const response = await axios.post('https://yocomputacion.vercel.app/api/products', formData, {
+            const response = await axios.post('https://localhost:5000/api/products', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },
